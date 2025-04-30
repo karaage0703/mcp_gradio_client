@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "mcp-rag-server": {
+        "type": "stdio",
+        "command": "uv",
+        "args": [
+          "run",
+          "--directory",
+          "/Users/karaage/GitHub/mcp-rag-server",
+          "python",
+          "-m",
+          "src.main"
+        ],
+        "env": {},
+        "disabled": false,
+        "alwaysAllow": []
+    }
+  }
+}
